@@ -1,0 +1,53 @@
+#menu{
+
+	width: 100%;
+	background-image: linear-gradient(#23212B, #1B1438);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#menu ul{
+
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	margin: 0px;
+}
+
+#menu li{
+
+	display: inline;
+	margin-left: 16px;
+}
+
+#menu #logo{
+
+	width: 100px;
+	height: 50px;
+	position: relative;
+	top : 18px;
+}
+
+#menu a{
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#facebook i{
+
+	color: #FFFFFF;
+	background: #192AAE;
+	width: 25px;
+	height: 25px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+#facebook li{
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}

@@ -20,7 +20,7 @@ body{
 
 #menu li{
 
-	display: inline;
+	display: inline-block;
 	margin: 15px;
 }
 
@@ -65,4 +65,17 @@ body{
 #redirect a:hover{
 
 	color: #E4E13A;
+}
+
+#facebook i{
+
+	color: #FFFFFF;
+	background-color: #1863D0;
+	height: 22px;
+	width: 22px;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 23px;
+	position: absolute;
+	right: 10px;
 }

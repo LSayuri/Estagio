@@ -20,16 +20,13 @@ body{
 
 #menu li{
 
-	display: inline-block;
-	margin: 15px;
+	margin-bottom: 15px;
 }
 
 #logo{
 
 	width: 90px;
 	height: 50px;
-	position: relative;
-	top: 20px;
 }
 
 #redirect a{
@@ -78,4 +75,36 @@ body{
 	line-height: 23px;
 	position: absolute;
 	right: 10px;
+}
+
+#menu-button{
+
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+	border: none;
+	border-radius: 4px;
+	color: #E4E13A;;
+	font-weight: 900;
+	font-size: 30px;
+	outline: none;
+	transition: color 0.2s ease-out;
+	margin-bottom: 30px;
+}
+
+#menu-button:active:hover{
+
+	color: #FFFFFF;
+}
+
+.navbar-default {
+
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#center{
+
+	position: relative;
+	left: 20px;
 }

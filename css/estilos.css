@@ -6,7 +6,7 @@ body{
 #menu{
 
 	width: 100%;
-	background-image: linear-gradient(#23212B, #141538);
+	background-image: linear-gradient(#12101A, #141538);
 }
 
 #menu ul{
@@ -28,6 +28,7 @@ body{
 	font-size: 12px;
 	position: relative;
 	transition: color 0.5s ease-out;
+	background: none;
 }
 
 #redirect a:before {
@@ -89,7 +90,7 @@ body{
 }
 
 #menu-button{
-
+	
 	width: 30px;
 	height: 30px;
 	background-color: transparent;
@@ -101,12 +102,22 @@ body{
 	outline: none;
 	transition: color 0.2s ease-out;
 	margin-bottom: 15px;
-	margin-left: 45%;
+	margin-left: 5%;
 }
 
 #menu-button:active:hover{
 
 	color: #FFFFFF;
+}
+
+#links{
+	
+	transition: color 0.2s ease-out;
+}
+
+#links *:active:hover{
+
+	background-color: #000;
 }
 
 .navbar-default {
@@ -119,11 +130,12 @@ body{
 
 	position: relative;
 	left: 20px;
+	text-align: center;
 }
 
 #nav-menu{
 
-	margin-top: 140px;
+	margin-top: 23%;
 }
 
 #title{
@@ -138,17 +150,30 @@ body{
 	color: #141538;
 }
 
-#title img{
+#title #logo{
 	
 	float: left;
-	width: 40%;
+	width: 30%;
+	position: relative;
+	left: -15%;
 }
 
-#title p{
+#title #titulo{
 	
 	float: left;
-	position: relative;
 	width: 60%;
+}
+
+.dropdown-menu{
+	
+	background: #141538;
+	text-align: center;
+	margin-left: 5%;
+}
+
+.dropdown-menu a{
+
+	
 }
 
 @media (min-width: 760px) {
@@ -168,6 +193,7 @@ body{
 		width: 90%;
 		margin-left: 5%;
 		margin-right: 5%;
+		text-align: center;
 	}
 	
 	#title{
@@ -175,12 +201,17 @@ body{
 		margin-left: 15%;
 		margin-right: 15%;
 	}
-}
-
-@media (min-width: 590px){
-
+	
 	#nav-menu{
 
-		margin-top: 180px;
+		margin-top: 15%;
+	}
+}
+
+@media (max-width: 760px) {
+	
+	#redirect a {
+		
+		width: 300px;
 	}
 }

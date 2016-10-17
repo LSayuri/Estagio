@@ -167,13 +167,16 @@ body{
 .dropdown-menu{
 	
 	background: #141538;
-	text-align: center;
-	margin-left: 5%;
+	text-align: left;
+	width: 230px;
+	margin-left: 0%;
 }
 
 .dropdown-menu a{
 
-	
+	width: 200px;
+	text-align: left;
+	display: block;
 }
 
 @media (min-width: 760px) {
@@ -186,6 +189,15 @@ body{
 	#exCollapsingNavbar2{
 	
 		display: block;
+	}
+	
+	.dropdown-menu{
+		
+	}
+	.dropdown-menu a{
+		
+		text-align: center;
+		margin-left: 6%;
 	}
 	
 	#redirect{

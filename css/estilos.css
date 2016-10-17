@@ -14,6 +14,7 @@ body{
 	list-style: none;
 	padding-bottom: 10px;
 }
+}
 
 #menu li{
 
@@ -166,10 +167,10 @@ body{
 
 .dropdown-menu{
 	
-	background: #141538;
 	text-align: left;
 	width: 230px;
 	margin-left: 0%;
+	z-index: -1;
 }
 
 .dropdown-menu a{
@@ -180,6 +181,11 @@ body{
 }
 
 @media (min-width: 760px) {
+
+	.dropdown-menu{
+
+		background-color: #12101A;
+	}
 
 	#menu-button{
 	

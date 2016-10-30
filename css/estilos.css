@@ -1,6 +1,7 @@
 body{
 
 	font-family: 'Lato', sans-serif;
+	font-weight: 900;
 }
 
 #menu{
@@ -13,7 +14,6 @@ body{
 
 	list-style: none;
 	padding-bottom: 10px;
-}
 }
 
 #menu li{
@@ -180,6 +180,97 @@ body{
 	display: block;
 }
 
+#conteudo #menu-lateral{
+	
+	width: 20%;
+	padding-right: 5px;
+}
+
+#conteudo .navbar-nav{
+	
+	margin-top: 100px;
+}
+
+#conteudo .nav-item{
+	
+	width: 100%;
+	margin: 2%;
+}
+
+#conteudo #menu-lateral a{
+	
+	color: #000;
+	font-weight: 900;
+	transition: color 0.3s ease-out;
+	transition: background 0.2s ease-out;
+}
+
+#conteudo #menu-lateral a:hover{
+	
+	color: #E4E13A;
+	background: #12101A;
+}
+
+#conteudo #menu-lateral a:focus{
+	
+	color: #FFF;
+	background: #12101A;
+}
+
+#conteudo #menu-lateral{
+	
+	margin-top: -8%;
+}
+
+#conteudo{
+	
+	position: absolute;
+	z-index: -2;
+	padding-top: 3%;
+	width: 100%;
+}
+
+#conteudo #comoajudar{
+	
+	margin-left: 3%;
+}
+
+#conteudo hr{
+	
+	width: 90%;
+	margin-left: 3%;
+}
+
+#conteudo .texto{
+	
+	margin-left: 23%;
+	width: 80%;
+	margin-top: 11%;
+}
+
+.topico{
+	
+	width: 85%;
+}
+
+.topico *:not(h3){
+	
+	margin-left: 5%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.topico h4.text-center{
+	
+	margin-right: 25%;
+}
+
+.topico p{
+	
+	line-height: 1.5;
+	font-size: 16px;
+}
+
 @media (min-width: 760px) {
 
 	.dropdown-menu{
@@ -200,6 +291,7 @@ body{
 	.dropdown-menu{
 		
 	}
+	
 	.dropdown-menu a{
 		
 		text-align: center;
@@ -214,13 +306,18 @@ body{
 		text-align: center;
 	}
 	
+	#conteudo #menu-lateral{
+		
+		height: 100%;
+	}
+	
 	#title{
 		
 		margin-left: 15%;
 		margin-right: 15%;
 	}
 	
-	#nav-menu{
+	#menu-principal #nav-menu{
 
 		margin-top: 15%;
 	}

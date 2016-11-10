@@ -1,4 +1,7 @@
-Clube de m�es junto ao O QUE FAZEMOS
-Consertar os problemas de linhas
-Texto justificado
-Instru��es : texto na frente dos n�meros
+﻿Textos alinhados
+Imagens dos produtos
+Texto de outro subitem (Qualquer outro)
+Adicionar as “bolas” do subitem
+Adicionar de novo o subitem de “como ajudar”
+As opções de logo 
+Adicionar o Clube de Mães

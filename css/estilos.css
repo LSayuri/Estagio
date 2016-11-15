@@ -222,6 +222,14 @@ body{
 	margin-top: -8%;
 }
 
+#conteudo #menu-lateral i{
+	
+	font-size: 20px;
+	font-weight: 100;
+	position: relative;
+	top: 5px;
+}
+
 #conteudo{
 	
 	position: absolute;
@@ -240,6 +248,23 @@ body{
 	width: 90%;
 	margin-left: 3%;
 }
+
+#conteudo .carousel-inner .item{
+	
+	height: 400px;
+}
+
+#conteudo .carousel-inner img{
+	
+	height: 100%;
+	margin: auto;
+}
+
+#conteudo .carousel-control{
+	
+	margin-left: 15%;
+}
+
 
 #conteudo .texto{
 	

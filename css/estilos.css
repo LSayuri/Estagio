@@ -197,6 +197,11 @@ body{
 	margin: 2%;
 }
 
+#conteudo #menu-lateral{
+
+	margin-left: 1.5%;
+}
+
 #conteudo #menu-lateral a{
 	
 	color: #000;

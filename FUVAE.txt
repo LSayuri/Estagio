@@ -1,7 +1,6 @@
-﻿Textos alinhados
-Imagens dos produtos
-Texto de outro subitem (Qualquer outro)
-Adicionar as “bolas” do subitem
-Adicionar de novo o subitem de “como ajudar”
-As opções de logo 
-Adicionar o Clube de Mães
+ - Adicionar todos os textos do "O que fazemos" (exeto Clube das mães)
+ - Logos 
+ - Banner rotativo pagina inicial
+ - Trocar banners de como ajudar por "imagens expansivas"
+ - Fazer o menu lateral de todos os menus que possuam "sub-menus"
+ - Recortar imagens

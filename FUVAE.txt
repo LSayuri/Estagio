@@ -1,6 +1,3 @@
- - Adicionar todos os textos do "O que fazemos" (exeto Clube das mães)
- - Logos 
- - Banner rotativo pagina inicial
- - Trocar banners de como ajudar por "imagens expansivas"
- - Fazer o menu lateral de todos os menus que possuam "sub-menus"
- - Recortar imagens
+	- Logos 
+ 	- Banner rotativo pagina inicial
+ 	- Trocar banners de como ajudar por "imagens expansivas"

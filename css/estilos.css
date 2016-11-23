@@ -254,27 +254,17 @@ body{
 	margin-left: 3%;
 }
 
-#conteudo .carousel-inner .item{
-	
-	height: 400px;
-}
-
-#conteudo .carousel-inner img{
-	
-	height: 100%;
-	margin: auto;
-}
-
-#conteudo .carousel-control{
-	
-	margin-left: 15%;
-}
 
 #conteudo .texto{
 	
 	margin-left: 23%;
 	width: 80%;
 	margin-top: 11%;
+}
+
+.espaco{
+	
+	margin-right: 3px;
 }
 
 .topico{

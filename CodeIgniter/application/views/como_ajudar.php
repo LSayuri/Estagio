@@ -47,28 +47,28 @@ Mais informações entre em contato conosco para marcarmos uma entrevista. </p>
 			
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="imgs/p1.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p1.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="imgs/p2.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p2.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="imgs/p3.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p3.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="imgs/p4.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p4.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="imgs/p5.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p5.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="imgs/p7.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p7.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="imgs/p8.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p8.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="imgs/p9.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p9.jpg')); ?>"></a></li>
 				<!--end of thumbnails-->
 			</ul>
 		</div>
@@ -125,31 +125,30 @@ vida comunitária.</p>
 			
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="imgs/p1.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="0"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p1.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="imgs/p2.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="1"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p2.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="imgs/p3.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="2"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p3.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="imgs/p4.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="3"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p4.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="imgs/p5.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="4"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p5.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="imgs/p7.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="5"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p7.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="imgs/p8.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="6"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p8.jpg')); ?>"></a></li>
 				<li data-toggle="modal" data-target="#galeria">
 					
-					<a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="imgs/p9.jpg"></a></li>
+					<a href="#myGallery" data-slide-to="7"><img class="img-thumbnail" src="<?php echo(base_url('assets/imgs/p9.jpg')); ?>"></a></li>
 				<!--end of thumbnails-->
 			</ul>
-
 		</div>
 	
 		<div class="topico">
@@ -250,7 +249,7 @@ automaticamente a renúncia fiscal.</p>
 				
 					<div class="carousel-inner">
 					
-						<div class="item active"> <img src="imgs/p1.jpg" alt="item0">
+						<div class="item active"> <img src="<?php echo(base_url('assets/imgs/p1.jpg')); ?>" alt="item0">
 						
 							<div class="carousel-caption">
 							
@@ -258,7 +257,7 @@ automaticamente a renúncia fiscal.</p>
 								<p>Copos e outros vidros jateados!</p>
 							</div>
 						</div>
-						<div class="item"> <img src="imgs/p2.jpg" alt="item1">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p2.jpg')); ?>" alt="item1">
 						
 							<div class="carousel-caption">
 							
@@ -267,7 +266,7 @@ automaticamente a renúncia fiscal.</p>
 							</div>
 						</div>
 						
-						<div class="item"> <img src="imgs/p3.jpg" alt="item2">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p3.jpg')); ?>" alt="item2">
 						
 							<div class="carousel-caption">
 							
@@ -275,7 +274,7 @@ automaticamente a renúncia fiscal.</p>
 								<p>Panos, tapetes e outros utensílios tecidos!</p>
 							</div>
 						</div>
-						<div class="item"> <img src="imgs/p4.jpg" alt="item3">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p4.jpg')); ?>" alt="item3">
 						
 							<div class="carousel-caption">
 							
@@ -283,7 +282,7 @@ automaticamente a renúncia fiscal.</p>
 							</div>
 						</div>
 						
-						<div class="item"> <img src="imgs/p5.jpg" alt="item4">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p5.jpg')); ?>" alt="item4">
 						
 							<div class="carousel-caption">
 							
@@ -292,7 +291,7 @@ automaticamente a renúncia fiscal.</p>
 							</div>
 						</div>
 						
-						<div class="item"> <img src="imgs/p7.jpg" alt="item5">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p7.jpg')); ?>" alt="item5">
 						
 							<div class="carousel-caption">
 							
@@ -300,7 +299,7 @@ automaticamente a renúncia fiscal.</p>
 							</div>
 						</div>
 						
-						<div class="item"> <img src="imgs/p8.jpg" alt="item6">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p8.jpg')); ?>" alt="item6">
 						
 							<div class="carousel-caption">
 							
@@ -309,7 +308,7 @@ automaticamente a renúncia fiscal.</p>
 							</div>
 						</div>
 						
-						<div class="item"> <img src="imgs/p9.jpg" alt="item7">
+						<div class="item"> <img src="<?php echo(base_url('assets/imgs/p9.jpg')); ?>" alt="item7">
 						
 							<div class="carousel-caption">
 							

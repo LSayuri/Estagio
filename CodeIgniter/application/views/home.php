@@ -14,14 +14,14 @@
 		
 		<div class="carousel-inner">
 		
-			<div class="item active"> <img src="assets/imgs/b1.png" alt="item0">
+			<div class="item active"> <img src="<?php echo(base_url('assets/imgs/b1.png')); ?>" alt="item0">
 			
 				<div class="carousel-caption">
 				
 					
 				</div>
 			</div>
-			<div class="item"> <img src="assets/imgs/b2.png" alt="item1">
+			<div class="item"> <img src="<?php echo(base_url('assets/imgs/b2.png')); ?>" alt="item1">
 			
 				<div class="carousel-caption">
 				
@@ -29,14 +29,14 @@
 				</div>
 			</div>
 			
-			<div class="item"> <img src="assets/imgs/b3.png" alt="item2">
+			<div class="item"> <img src="<?php echo(base_url('assets/imgs/b3.png')); ?>" alt="item2">
 			
 				<div class="carousel-caption">
 				
 					
 				</div>
 			</div>
-			<div class="item"> <img src="assets/imgs/b4.png" alt="item3">
+			<div class="item"> <img src="<?php echo(base_url('assets/imgs/b4.png')); ?>" alt="item3">
 			
 				<div class="carousel-caption">
 				

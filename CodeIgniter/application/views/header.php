@@ -2,8 +2,8 @@
 
 	<div id="title">
 	
-		<img src="assets/imgs/logo.jpg" alt="Logo da FUVAE" id="logo">
-		<img src="assets/imgs/logo2.png" alt="Fundação Varginhense de Assistência aos Excepcionais" id="titulo">
+		<img src="<?php echo (base_url('assets/imgs/logo.jpg')); ?>" alt="Logo da FUVAE" id="logo">
+		<img src="<?php echo (base_url('assets/imgs/logo2.png')); ?>" alt="Fundação Varginhense de Assistência aos Excepcionais" id="titulo">
 	</div>
 	
 	<div id="menu">
@@ -25,7 +25,7 @@
 				<div id="center">
 					
 					<ul class="nav navbar-nav" id="redirect">
-						<li class="nav-item"><?php echo anchor(base_url("comoAjudar"), "INÍCIO");?></li>
+						<li class="nav-item"><?php echo anchor(base_url(), "INÍCIO");?></li>
 						<li class="dropdown nav-item"><a id="fundacao" class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">A FUNDAÇÃO<span class="caret"></span></a>
 							
 							<ul class="dropdown-menu nav navbar-nav">
@@ -62,7 +62,7 @@
 						
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><a href="comoAjudar.html#pessoa_fisica">SOU UMA PESSOA FÍSICA</a></li>
+								<li class="nav-item"><?php echo anchor("home/como_ajudar", "SOU UMA PESSOA FÍSICA");?></li>
 								<li class="nav-item"><a href="comoAjudar.html#pessoa_juridica">SOU UMA PESSOA JURÍDICA</a></li>
 								<li class="nav-item"><a href="comoAjudar.html#imposto_renda">DOE VIA IMPOSTO DE RENDA</a></li>
 							</ul>

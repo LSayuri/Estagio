@@ -27,7 +27,7 @@ class Home extends CI_Controller {
 		$this->load->view('footer-html');
 	}
 	
-	public function comoAjudar(){
+	public function como_ajudar(){
 		
 		$this->load->view('header-html');
 		$this->load->view('header');

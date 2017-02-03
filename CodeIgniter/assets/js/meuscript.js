@@ -20,15 +20,6 @@ $(document).ready(function(){
 	}
 });
 
-function comoAjudar (botao){
-	
-	id = $(botao).attr('id');
-	
-	$('div.texto').hide();
-	
-	$('div#' + id).show();
-}
-
 function oQueFazemos (botao){
 	
 	id = $(botao).attr('id');

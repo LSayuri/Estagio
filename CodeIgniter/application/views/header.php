@@ -11,7 +11,7 @@
 		<div id="links">
 			
 			<a href="https://www.facebook.com/fuvae.apae?ref=ts&fref=ts" target="_blank"> <i class="fa fa-facebook" id="facebook" title="Página da FUVAE no Facebook"></i> </a>
-			<a href="https://www.facebook.com/Clube-de-M%C3%A3es-Fuvae-VarginhaMG-e-Volunt%C3%A1rias-481749408645886/?ref=br_rs" target="blank"><img src="assets/imgs/maes.png" id="maes" alt="Grupo de mães da FUVAE" title="Grupo de mães da FUVAE"> </a>
+			<a href="https://www.facebook.com/Clube-de-M%C3%A3es-Fuvae-VarginhaMG-e-Volunt%C3%A1rias-481749408645886/?ref=br_rs" target="blank"><img src="<?php echo (base_url('assets/imgs/maes.png')); ?>" id="maes" alt="Grupo de mães da FUVAE" title="Grupo de mães da FUVAE"> </a>
 		</div>
 		
 		<nav class="navbar navbar-default" role="navigation" id="nav-menu">
@@ -62,9 +62,9 @@
 						
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><?php echo anchor("home/como_ajudar", "SOU UMA PESSOA FÍSICA");?></li>
-								<li class="nav-item"><a href="comoAjudar.html#pessoa_juridica">SOU UMA PESSOA JURÍDICA</a></li>
-								<li class="nav-item"><a href="comoAjudar.html#imposto_renda">DOE VIA IMPOSTO DE RENDA</a></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/fisica"), "SOU UMA PESSOA FÍSICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/juridica"), "SOU UMA PESSOA JURÍDICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/imposto"), "DOE VIA IMPOSTO DE RENDA");?></li>
 							</ul>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>

@@ -37,3 +37,12 @@ function oQueFazemos (botao){
 	
 	$('div#' + id).show();
 }
+
+function institucional (botao){
+	
+	id = $(botao).attr('id');
+	
+	$('div.texto').hide();
+	
+	$('div#' + id).show();
+}

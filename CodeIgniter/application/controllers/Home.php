@@ -29,9 +29,14 @@ class Home extends CI_Controller {
 	
 	public function como_ajudar(){
 		
+		$this->load->helper('url'); // load the helper first
+		$page = $this->uri->segment(3);
+		
 		$this->load->view('header-html');
 		$this->load->view('header');
-		$this->load->view('como_ajudar');
+		$this->load->view('como_ajudar/como_ajudar');
+		$this->load->view('como_ajudar/' . $page);
+		$this->load->view('como_ajudar/imagens');
 		$this->load->view('footer');
 		$this->load->view('footer-html');
 	}

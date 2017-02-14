@@ -62,9 +62,9 @@
 						
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/fisica"), "SOU UMA PESSOA FÍSICA");?></li>
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/juridica"), "SOU UMA PESSOA JURÍDICA");?></li>
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/imposto"), "DOE VIA IMPOSTO DE RENDA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "SOU UMA PESSOA FÍSICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "SOU UMA PESSOA JURÍDICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "DOE VIA IMPOSTO DE RENDA");?></li>
 							</ul>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>

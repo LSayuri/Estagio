@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://estagio.localhost/CodeIgniter/';
+$config['base_url'] = 'http://estagio.localhost/Estagio/CodeIgniter/';
 
 /*
 |--------------------------------------------------------------------------

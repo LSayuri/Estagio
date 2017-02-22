@@ -12,6 +12,12 @@ $(document).ready(function(){
 		$(this).find('.dropdown-menu').hide();
 	});
 	
+	$('div.texto').hide();
+	
+	hash = $("div#menu-lateral").find("a").first().attr('id');
+	
+	$('div#' + hash).show();
+	
 	if (location.hash) {
 		
 		$('div.texto').hide();
@@ -40,6 +46,15 @@ function oQueFazemos (botao){
 
 function institucional (botao){
 	
+	id = $(botao).attr('id');
+	
+	$('div.texto').hide();
+	
+	$('div#' + id).show();
+}
+
+function deficiencia (botao){
+
 	id = $(botao).attr('id');
 	
 	$('div.texto').hide();

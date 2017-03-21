@@ -2,6 +2,8 @@ body{
 
 	font-family: 'Lato', sans-serif;
 	font-weight: 900;
+	overflow-x: hidden;
+	padding-bottom: 50px;
 }
 
 #menu{
@@ -265,29 +267,29 @@ body{
 	margin-top: 11%;
 }
 
-.espaco{
+.texto .espaco{
 	
 	margin-right: 3px;
 }
 
-.topico{
+.texto .topico{
 	
 	width: 85%;
 }
 
-.topico *:not(h3){
+.texto .topico *:not(h3){
 	
 	margin-left: 5%;
 	text-align: justify;
 	text-justify: inter-word;
 }
 
-.topico h4.text-center{
+.texto .topico h4.text-center{
 	
 	margin-right: 25%;
 }
 
-.topico p{
+.texto .topico p{
 	
 	line-height: 1.5;
 	font-size: 16px;
@@ -305,10 +307,11 @@ body{
 	padding: 2px;
 }
 
-#conteudo #Galeria-Principal img{
+#conteudo .carousel{
 	
-	width = 100%;
-	height = 70%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media (min-width: 760px) {

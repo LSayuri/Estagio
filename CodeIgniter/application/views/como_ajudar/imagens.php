@@ -1,4 +1,3 @@
-</div>
 <!--begin modal window-->
 <div class="modal fade" id="galeria">
 

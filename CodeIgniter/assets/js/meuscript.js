@@ -11,20 +11,13 @@ $(document).ready(function(){
 		
 		$(this).find('.dropdown-menu').hide();
 	});
-	
-	if (location.hash) {
-		
-		$('div.texto').hide();
-		
-		$('div' + location.hash).show();
-	}
 });
 
-function oQueFazemos (botao){
+function realizacoes (butt){
 	
-	id = $(botao).attr('id');
+	var parceiro = $(butt).attr('href');
+	parceiro = parceiro.replace("#", "");
+	parceiro = parceiro.toLowerCase();
+	alert(parceiro);
 	
-	$('div.texto').hide();
-	
-	$('div#' + id).show();
 }

@@ -30,7 +30,7 @@
 							
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><a href="fundacao.html#institucional">O QUE É?</a></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/institucional/historia"), "INSTITUCIONAL");?></li>
 								<li class="nav-item"><a href="fundacao.html#rede_apaes">REDE APAES</a></li>
 			
 							</ul>
@@ -39,22 +39,23 @@
 						
 							<ul class="dropdown-menu nav navbar-nav">
 							
-								<li class="nav-item"><a href="oQueFazemos.html#trabalho_realizado">TRABALHO REALIZADO</a></li>
-								<li class="nav-item"><a href="oQueFazemos.html#acoes">AÇÕES</a></li>
-								<li class="nav-item"><a href="oQueFazemos.html#publico_alvo">PÚBLICO ALVO</a></li>
-								<li class="nav-item"><a href="oQueFazemos.html#participacao_conselhos">PARTICIPAÇÃO NOS CONSELHOS</a></li>
-								<li class="nav-item"><a href="oQueFazemos.html#clube_maes">CLUBE DE MÃES</a></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/fazemos/trabalho"), "TRABALHO REALIZADO");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/fazemos/acoes"), "AÇÕES");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/fazemos/alvo"), "PÚBLICO ALVO");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/fazemos/conselhos"), "PARTICIPAÇÃO NOS CONSELHOS");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/fazemos/maes"), "CLUBE DAS MÃES");?></li>
 							</ul>
 						</li>
 						<li class="dropdown nav-item"><a id="deficiencia_inte" class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">DEFICIÊNCIA INTELECTUAL E DESENVOLVIMENTO<span class="caret"></span></a>
 							
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><a href="deficiencia_inte.html#oquee">O QUE É?</a></li>
-								<li class="nav-item"><a href="deficiencia_inte.html#como_previnir">COMO PREVINIR?</a></li>
-								<li class="nav-item"><a href="deficiencia_inte.html#como_diagnosticar">COMO DIAGNOSTICAR?</a></li>
-								<li class="nav-item"><a href="deficiencia_inte.html#como_tratar">COMO TRATAR?</a></li>
-								<li class="nav-item"><a href="deficiencia_inte.html#direitos_beneficios">DIREITOS E BENEFÍCIOS</a></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/deficiencia/oquee"), "O QUE É?");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/deficiencia/prevenir"), "COMO PREVENIR");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/deficiencia/diagnosticar"), "COMO DIAGNOSTICAR?");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/deficiencia/tratar"), "COMO TRATAR?");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/deficiencia/direitos"), "DIREITOS E BENEFÍCIOS");?></li>
+		
 			
 							</ul>
 						</li>
@@ -62,15 +63,15 @@
 						
 							<ul class="dropdown-menu nav navbar-nav">
 		
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "SOU UMA PESSOA FÍSICA");?></li>
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "SOU UMA PESSOA JURÍDICA");?></li>
-								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/"), "DOE VIA IMPOSTO DE RENDA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/fisica"), "SOU UMA PESSOA FÍSICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/juridica"), "SOU UMA PESSOA JURÍDICA");?></li>
+								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/imposto"), "DOE VIA IMPOSTO DE RENDA");?></li>
 							</ul>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">PARCEIROS</a></li>
+						<li class="nav-item"><?php echo anchor(base_url("home/parceiros/info"), "PARCEIROS"); ?></li>
 						<li class="nav-item"><a class="nav-link" href="#">FOTOS</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">FALE CONOSCO</a></li>
+						<li class="nav-item"><?php echo anchor(base_url("home/fale_conosco"), "FALE CONOSCO"); ?></li>
 					</ul>
 				</div>
 			</div>

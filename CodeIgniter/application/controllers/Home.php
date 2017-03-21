@@ -27,17 +27,65 @@ class Home extends CI_Controller {
 		$this->load->view('footer-html');
 	}
 	
-	public function como_ajudar(){
-		
-		$this->load->helper('url'); // load the helper first
-		$page = $this->uri->segment(3);
+	public function como_ajudar($page){
 		
 		$this->load->view('header-html');
 		$this->load->view('header');
 		$this->load->view('como_ajudar/como_ajudar');
 		$this->load->view('como_ajudar/' . $page);
-		$this->load->view('como_ajudar/imagens');
 		$this->load->view('footer');
+		$this->load->view('como_ajudar/imagens');
+		$this->load->view('footer-html');
+	}
+	
+	public function institucional($page){
+		
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('institucional/institucional');
+		$this->load->view('institucional/' . $page);
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+	
+	public function fazemos($page){
+		
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('fazemos/fazemos');
+		$this->load->view('fazemos/' . $page);
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+	
+	public function deficiencia($page){
+		
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('deficiencia/deficiencia');
+		$this->load->view('deficiencia/' . $page);
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+	
+	public function fale_conosco(){
+		
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('fale_conosco');
+		$this->load->view('message_box');
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+	
+	public function parceiros($page){
+		
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('parceiros/parceiros');
+		$this->load->view('parceiros/' . $page);
+		$this->load->view('footer');
+		$this->load->view('parceiros/gallery');
 		$this->load->view('footer-html');
 	}
 }

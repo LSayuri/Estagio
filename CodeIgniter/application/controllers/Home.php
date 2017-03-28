@@ -80,6 +80,7 @@ class Home extends CI_Controller {
 	
 	public function parceiros($page){
 		
+		$this->load->helper('load_parceiro');
 		$this->load->view('header-html');
 		$this->load->view('header');
 		$this->load->view('parceiros/parceiros');

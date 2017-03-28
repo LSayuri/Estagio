@@ -17,7 +17,7 @@
 				
 					<div class="carousel-inner">
 					
-						<div class="item active"> <img src="<?php echo(base_url('assets/imgs/p1.jpg')); ?>" alt="item0">
+						<div class="item active"> <img src="<?php $position[i]; ?>" alt="item0">
 						
 							<div class="carousel-caption">
 							
@@ -25,7 +25,7 @@
 								<p>Copos e outros vidros jateados!</p>
 							</div>
 						</div>
-						<div class="item"> <img src="" alt="item1">
+						<div class="item"> <img src="<?php $position[i]; ?>" alt="item1">
 						
 							<div class="carousel-caption">
 							

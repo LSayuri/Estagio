@@ -12,12 +12,3 @@ $(document).ready(function(){
 		$(this).find('.dropdown-menu').hide();
 	});
 });
-
-function realizacoes (butt){
-	
-	var parceiro = $(butt).attr('href');
-	parceiro = parceiro.replace("#", "");
-	parceiro = parceiro.toLowerCase();
-	alert(parceiro);
-	
-}

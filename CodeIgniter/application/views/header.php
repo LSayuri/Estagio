@@ -31,7 +31,7 @@
 							<ul class="dropdown-menu nav navbar-nav">
 		
 								<li class="nav-item"><?php echo anchor(base_url("home/institucional/historia"), "INSTITUCIONAL");?></li>
-								<li class="nav-item"><a href="fundacao.html#rede_apaes">REDE APAES</a></li>
+								<li class="nav-item"><?php echo anchor('http://www.apaeminas.org.br', 'REDE APAES');?></li>
 			
 							</ul>
 						</li>
@@ -68,9 +68,9 @@
 								<li class="nav-item"><?php echo anchor(base_url("home/como_ajudar/imposto"), "DOE VIA IMPOSTO DE RENDA");?></li>
 							</ul>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="#">EVENTOS</a></li>
+						<li class="nav-item"><?php echo anchor(base_url("home/eventos") . "/" . date("Y"), "EVENTOS"); ?></li>
 						<li class="nav-item"><?php echo anchor(base_url("home/parceiros/info"), "PARCEIROS"); ?></li>
-						<li class="nav-item"><a class="nav-link" href="#">FOTOS</a></li>
+						<li class="nav-item"><?php echo anchor(base_url("home/fotos"), "FOTOS"); ?></li>
 						<li class="nav-item"><?php echo anchor(base_url("home/fale_conosco"), "FALE CONOSCO"); ?></li>
 					</ul>
 				</div>

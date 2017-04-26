@@ -79,14 +79,50 @@ class Home extends CI_Controller {
 	}
 	
 	public function parceiros($page){
-		
-		$this->load->helper('load_parceiro');
+
 		$this->load->view('header-html');
 		$this->load->view('header');
 		$this->load->view('parceiros/parceiros');
 		$this->load->view('parceiros/' . $page);
 		$this->load->view('footer');
-		$this->load->view('parceiros/gallery');
 		$this->load->view('footer-html');
+	}
+
+	public function galeria($parceiro){
+		//LEMBRE-SE DE EDITAR ESSA PORRA AQUI--------------------------------------------------------------------------------------------------------------
+		//CAIO---------------------------------------------------------------------------------------------------------------------------------------------
+		//SIM, VOCÊ MESMO----------------------------------------------------------------------------------------------------------------------------------
+		$fi = new FilesystemIterator('C:\Users\Caio Nogueira\Documents\GitHub\Estagio\CodeIgniter\assets\imgs\parceiros\\' . $parceiro, FilesystemIterator::SKIP_DOTS);
+		$quantity = iterator_count($fi);
+		$data = array(
+			"quantity" => $quantity - 1,
+			"url" => base_url('assets/imgs/parceiros/' . $parceiro) . '/',
+		);
+
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('parceiros/gallery', $data);
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+
+	public function fotos(){
+		
+		$fi = new FilesystemIterator('C:\Users\Caio Nogueira\Documents\GitHub\Estagio\CodeIgniter\assets\imgs\fotos', FilesystemIterator::SKIP_DOTS);
+		$quantity = iterator_count($fi);
+		$data = array(
+			"quantity" => $quantity - 1,
+			"url" => base_url('assets/imgs/fotos') . '/',
+		);
+		$this->load->view('header-html');
+		$this->load->view('header');
+		$this->load->view('fotos', $data);
+		$this->load->view('footer');
+		$this->load->view('footer-html');
+	}
+
+	public function eventos($year){
+
+		$events_array = parse_ini_file(base_url('assets/events/2017.ini'));
 	}
 }

@@ -1,6 +1,6 @@
 <div id="conteudo">
 	
-	<div class="text-center" style="margin-bottom: 30px;"> <?php echo anchor(base_url('home/parceiros/fotos'), 'VOLTAR'); ?> </div>
+	<div class="text-center" style="margin-bottom: 30px;"> <h3>FOTOS</h3> <hr> </div>
 	<!--begin carousel-->
 	<div id="Galeria-Principal" class="carousel slide" data-ride="carousel">
 	

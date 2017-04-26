@@ -6,12 +6,12 @@
 	
 		<ul class="list-inline">
 		
-			<li style="width: 20%">CEMIG</li>
-			<li style="width: 20%">COPASA</li>
-			<li style="width: 20%">Pró-Vida</li>
-			<li style="width: 20%">Fertipar</li>
-			<li style="width: 20%">Philips do Brasil</li>
-			<li style="width: 20%">Moinho Sul Mineiro</li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/cemig'); ?>">CEMIG</a></li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/copasa'); ?>">COPASA</a></li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/provida'); ?>">Pró-Vida</a></li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/fertipar'); ?>">Fertipar</a></li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/philipsdobrasil'); ?>">Philips do Brasil</a></li>
+			<li style="width: 20%"><a href="<?php echo base_url('home/galeria/moinhosulmineiro'); ?>">Moinho Sul Mineiro</a></li>
 		</ul>
 	</div>
 </div>

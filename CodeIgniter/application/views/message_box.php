@@ -6,6 +6,14 @@
 		<form id="mensagem" style="border-style: solid; border-color: #DDD; border-width: 2px; border-radius: 5px; padding: 5px;">
 		
 			<div class="row">
+			
+				<div class="col-md-12">
+				
+					<h3 class="text-center">Envie-nos uma mensagem por E-mail!</h3>
+				</div>
+			</div>
+			
+			<div class="row">
 				
 				<div class="col-md-4">
 				
